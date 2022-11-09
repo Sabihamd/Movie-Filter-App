@@ -1,0 +1,25 @@
+.mainDiv {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #254d7e;
+}
+
+.movieContainer {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  margin: 0 auto;
+  margin-top: 30px;
+  gap: 30px;
+  padding: 20px;
+}
+
+h1 {
+  color: #254d7e;
+}
+
+h3 {
+  font-weight: 200;
+}

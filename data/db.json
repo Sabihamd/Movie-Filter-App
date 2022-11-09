@@ -1,0 +1,76 @@
+{
+  "movies": [
+    {
+      "Title": "The Lion King",
+      "Year": "2019",
+      "Runtime": "118 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Mowgli: Legend of the Jungle",
+      "Year": "2018",
+      "Runtime": "104 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Doctor Strange",
+      "Year": "2016",
+      "Runtime": "115 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg"
+    },
+    {
+      "Title": "John Wick",
+      "Year": "2014",
+      "Runtime": "101 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Vicky Cristina Barcelona",
+      "Year": "2008",
+      "Runtime": "101 min",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NDQ4MTg2MV5BMl5BanBnXkFtZTcwNDUzNjU3MQ@@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Cotton Club",
+      "Year": "1984",
+      "Runtime": "101 min",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Crocodile Dundee",
+      "Year": "1986",
+      "Runtime": "101 min",
+      "Poster": "https://upload.wikimedia.org/wikipedia/en/1/17/Crocodile_Dundee_in_Los_Angeles.jpg"
+    },
+    {
+      "Title": "Ratatouille",
+      "Year": "2007",
+      "Runtime": "101 min",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg"
+    },
+    {
+      "Title": "City of God",
+      "Year": "2014",
+      "Runtime": "101 min",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX300.jpg"
+    },
+    {
+      "Title": "Stardust",
+      "Year": "2007",
+      "Runtime": "101 min",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Apocalypto",
+      "Year": "2006",
+      "Runtime": "101 min",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Princess Mononoke",
+      "Year": "1997",
+      "Runtime": "2h 13min",
+      "Poster": "https://i.ytimg.com/vi/JVGkhYYzAl0/movieposter_en.jpg"
+    }
+  ]
+}

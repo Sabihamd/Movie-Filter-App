@@ -1,0 +1,32 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: #254d7e;
+  overflow-x: hidden;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #254d7e;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+  gap: 100px;
+}
+
+.searchInput {
+  width: 315px;
+  height: 50px;
+  background-color: lightblue;
+  color: #254d7e;
+  display: flex;
+  margin: 50px auto;
+  text-align: center;
+  font-size: large;
+}
