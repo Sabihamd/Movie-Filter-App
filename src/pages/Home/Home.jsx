@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from "react";
-import "./Home.css";
 import Card from "../../components/Card/Card";
 import useFilter from "../../hooks/useFilter";
 import fetchMovies from "../../fetcher/movieList";
 import { useQuery } from "react-query";
+import { useTheme } from "react-jss";
+import classes from "./Home.jss";
 
 export default function Home() {
   const [collection, setCollection] = useState();
   const [filteredData, setFilteredData] = useState();
+  const theme = useTheme();
+  const styles = classes({theme});
 
   let userInput = " ";
   const { isLoading, isError, error, data } = useQuery("movies", fetchMovies);
@@ -35,15 +38,15 @@ export default function Home() {
   };
 
   return (
-    <div className="home">
+    <div className={styles.home}>
       <input
-        className="searchInput"
+        className={styles.searchInput}
         type="text"
         onChange={(e) => handleSearch(e)}
         placeholder="Search your Movies.."
       />
-      <div className="movies">
-        <div className="gridContainer">
+      <div className={styles.movies}>
+        <div className={styles.gridContainer}>
           {filteredData &&
             filteredData.map((res, index) => <Card key={index} data={res} />)}
         </div>

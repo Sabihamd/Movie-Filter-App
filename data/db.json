@@ -4,73 +4,97 @@
       "Title": "The Lion King",
       "Year": "2019",
       "Runtime": "118 min",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg"
+      "Image": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg",
+      "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVBpgqTaRffQeR19ukAV87es0Glp57oBLYKw&usqp=CAU",
+      "Plot": "Disney's The Lion King is about a young lion named Simba, who is the crown prince of an African Savanna. When his father dies in an accident staged by his uncle, Simba is made to feel responsible for his father's death and must overcome his fear of taking responsibility as the rightful heir to the throne."
     },
     {
       "Title": "Mowgli: Legend of the Jungle",
       "Year": "2018",
       "Runtime": "104 min",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
+      "Image": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg",
+      "Poster": "https://rukminim1.flixcart.com/image/416/416/juk4gi80/poster/m/f/a/large-newposter8390-movie-deadpool-marvel-stuffed-animal-teddy-original-imaf5tgqtdh7zxvz.jpeg?q=70",
+      "Plot": "A human child raised by wolves must face off against a menacing tiger named Shere Khan, as well as his own origins. The story follows the upbringing of the human child Mowgli raised by a pack of wolves in the jungles of India."
     },
     {
       "Title": "Doctor Strange",
       "Year": "2016",
       "Runtime": "115 min",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg"
+      "Image": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
+      "Poster": "https://rukminim1.flixcart.com/image/416/416/poster/m/s/x/medium-poster972-doctor-strange-movies-4k-on-fine-art-paper-hd-original-imaes5ghbgujrgyk.jpeg?q=70",
+      "Plot": "The movie begins with Kaecilius (Mads Mikkelsen), a renegade former disciple along with his followers entering the library of Sanctum Sanctorum and beheading the librarian, to retrieve two vital pages from a book to gain the power of calling forth Dormammu, an ancient demon."
     },
     {
       "Title": "John Wick",
       "Year": "2014",
       "Runtime": "101 min",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
+      "Image": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg",
+      "Poster": "https://coolhdwall.com/storage/202105/john-wick-3-keanu-reeves-2k-wallpaper-2560x1440.jpg",
+      "Plot": "The story follows former assassin John Wick and his attempt to hunt down the men who broke into his home, stole his vintage car and killed his puppy, which was a last gift to him from his recently deceased wife. Chad Stahelski and David Leitch directed the film together, though only Stahelski was credited."
     },
     {
       "Title": "Vicky Cristina Barcelona",
       "Year": "2008",
       "Runtime": "101 min",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NDQ4MTg2MV5BMl5BanBnXkFtZTcwNDUzNjU3MQ@@._V1_SX300.jpg"
+      "Image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NDQ4MTg2MV5BMl5BanBnXkFtZTcwNDUzNjU3MQ@@._V1_SX300.jpg",
+      "Poster": "https://www.oqver.net/uploads/Vicky_abre_25062020141410.jpg",
+      "Plot": "Two female friends, Vicky and Cristina, on a summer holiday have an illicit affair with a handsome painter, Juan Antonio, and are unaware that his ex-wife Maria Elena is about to re-enter his life."
     },
     {
       "Title": "The Cotton Club",
       "Year": "1984",
       "Runtime": "101 min",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg"
+      "Image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg",
+      "Poster": "https://i0.wp.com/www.iconvsicon.com/wp-content/uploads/2019/11/Cotton-Club-2019-1-featured.jpg?fit=752%2C552&ssl=1",
+      "Plot": "A dancer from Dixie's neighborhood, Sandman Williams, is hired with his brother by The Cotton Club, a jazz club where most of the performers are black and the customers are white. Owney Madden, the boss of the Hell's Kitchen Irish mob, owns the club and runs it with his right-hand man, Frenchy DeMange."
     },
     {
       "Title": "Crocodile Dundee",
       "Year": "1986",
       "Runtime": "101 min",
-      "Poster": "https://upload.wikimedia.org/wikipedia/en/1/17/Crocodile_Dundee_in_Los_Angeles.jpg"
+      "Image": "https://upload.wikimedia.org/wikipedia/en/1/17/Crocodile_Dundee_in_Los_Angeles.jpg",
+      "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJu0T1N3qb7UgYgc6hqA9VJRcvLIC2ld3QEMl6U0KLe4Ieh41Zc4JgFCZWdEB88mQqhJM&usqp=CAU",
+      "Plot": "A New York reporter heads to Australia to interview the living legend Mike Dundee (Paul Hogan). When she finally locates him, she is so taken with him that she brings him back with her to New York. In New York, Mike Dundee is amazed by the wonders of the city and the interesting people there."
     },
     {
       "Title": "Ratatouille",
       "Year": "2007",
       "Runtime": "101 min",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg"
+      "Image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg",
+      "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDomMjfifYlcc91e4dhRfbv6uPbDfvrybbcg&usqp=CAU",
+      "Plot": "Remy, a young rat with a perfect sense of taste and smell, dreams of becoming a chef like his deceased idol, Auguste Gusteau. The rest of his colony, including his brother Émile and his father, the clan leader Django, are interested in food only for sustenance. The rats live in an elderly woman's attic outside Paris. After Remy and Émile accidentally reveal the colony to the woman, they are forced to flee and Remy becomes separated from the others. Encouraged by an imaginary Gusteau, he eventually finds himself above the kitchen of Gusteau's restaurant."
     },
     {
       "Title": "City of God",
       "Year": "2014",
       "Runtime": "101 min",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX300.jpg"
+      "Image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX300.jpg",
+      "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkZGhCBFoOSm2hkQXJk9FYpW_UHba3wl02A&usqp=CAU",
+      "Plot": "Two boys are brought up in a sadistic neighbourhood of Rio de Janeiro. They adopt diverse professional paths, with one of them becoming a photographer and the other boy becoming a drug dealer."
     },
     {
       "Title": "Stardust",
       "Year": "2007",
       "Runtime": "101 min",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_SX300.jpg"
+      "Image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_SX300.jpg",
+      "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ75qMNBaVITIdF8nozVgaBgvx7Y3-C8RczqQ&usqp=CAU",
+      "Plot": "Tristan promises Victoria to get a star from the magical kingdom of Stormhold that exists beyond the Wall. Trying to keep his promise, Tristan ends up having an adventure that changes his life."
     },
     {
       "Title": "Apocalypto",
       "Year": "2006",
       "Runtime": "101 min",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg"
+      "Image": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg",
+      "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRDAIKJ5W3klDDvO2jVolcVhXchwCJsnAsJw&usqp=CAU",
+      "Plot": "The all-powerful mutant Apocalypse, who is long revered as a god, wants to cause extinction on earth. The X-Men must work together to demolish his plans."
     },
     {
       "Title": "Princess Mononoke",
       "Year": "1997",
       "Runtime": "2h 13min",
-      "Poster": "https://i.ytimg.com/vi/JVGkhYYzAl0/movieposter_en.jpg"
+      "Image": "https://kapodaco.files.wordpress.com/2017/03/princess-mononoke-1.jpg?w=474&h=650",
+      "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqaADR8uKyRi5J_6oapRFB3aaAbVQQHK6YMw&usqp=CAU",
+      "Plot": "While protecting his village from rampaging boar-god/demon, a confident young warrior, Ashitaka, is stricken by a deadly curse. To save his life, he must journey to the forests of the west. Once there, he's embroiled in a fierce campaign that humans were waging on the forest."
     }
   ]
 }

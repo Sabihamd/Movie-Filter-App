@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./pages/Home/Home";
-import MoviePoster from "./pages/MoviePoster/MoviePoster";
+import MoviePoster from '../src/pages/MoviePoster/MoviePoster'
 import { ReactQueryDevtools } from "react-query/devtools";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
