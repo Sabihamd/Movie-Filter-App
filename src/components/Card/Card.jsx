@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import classes from "./Card.jss";
 import { useTheme } from "react-jss";
+import PropTypes from "prop-types";
+import classes from "./Card.jss";
 
-export default function Card({ data }) {
+function Card({ data }) {
   const theme = useTheme();
   const styles = classes({ theme });
   return (
@@ -17,3 +18,27 @@ export default function Card({ data }) {
     </div>
   );
 }
+
+Card.propTypes = {
+  data: {
+    Title: PropTypes.string,
+    Year: PropTypes.string,
+    Runtime: PropTypes.string,
+    Image: PropTypes.string,
+    Poster: PropTypes.string,
+    Plot: PropTypes.string,
+  },
+};
+
+Card.defaultProps = {
+  data: {
+    Title: "",
+    Year: "",
+    Runtime: "",
+    Image: "",
+    Poster: "",
+    Plot: "",
+  },
+};
+
+export default Card;

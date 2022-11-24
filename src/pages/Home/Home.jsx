@@ -10,7 +10,7 @@ export default function Home() {
   const [collection, setCollection] = useState();
   const [filteredData, setFilteredData] = useState();
   const theme = useTheme();
-  const styles = classes({theme});
+  const styles = classes({ theme });
 
   let userInput = " ";
   const { isLoading, isError, error, data } = useQuery("movies", fetchMovies);
