@@ -12,7 +12,13 @@ export default function Movie() {
     <div className={styles.mainDiv}>
       <div className={styles.movieContainer}>
         {movie && <h1 className={styles.title}>{movie.Title}</h1>}
-        <img src={movie.Poster} alt="Poster" width="600px" height="300px" />
+        <img
+          classname={styles.poster}
+          src={movie.Poster}
+          alt="Poster"
+          width="600px"
+          height="300px"
+        />
         <h3 className={styles.details}>
           {" "}
           <b>Movie Duration:</b> {movie.Runtime}

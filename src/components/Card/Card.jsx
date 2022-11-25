@@ -4,7 +4,7 @@ import { useTheme } from "react-jss";
 import PropTypes from "prop-types";
 import classes from "./Card.jss";
 
-function Card({ data }) {
+const Card = ({ data }) => {
   const theme = useTheme();
   const styles = classes({ theme });
   return (
@@ -17,7 +17,7 @@ function Card({ data }) {
       </Link>
     </div>
   );
-}
+};
 
 Card.propTypes = {
   data: {

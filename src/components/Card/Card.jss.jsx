@@ -3,7 +3,7 @@ import { createUseStyles } from "react-jss";
 const classes = createUseStyles({
   title: {
     color: ({ theme }) => theme.color,
-    fontSize: "15px",
+    fontSize: "18px",
     fontFamily: "Lucida Sans",
     textTransform: "uppercase",
   },
@@ -14,13 +14,19 @@ const classes = createUseStyles({
   cardContainer: {
     display: "flex",
     flexDirection: "column",
-    padding: "30px",
+    padding: "3px 2px 2px 2px",
     backgroundColor: "lightblue",
+    width: "350px",
+    height: "420px",
     "&:hover": {
       fontSize: "larger",
       fontFamily: "Times New Roman",
       fontWeight: "bolder",
-      boxShadow: "5px 5px 5px 0px white",
+      boxShadow: "3px 3px 3px 0px white",
+    },
+    "& img": {
+      width: "350px",
+      height: "378px",
     },
   },
   cardData: {

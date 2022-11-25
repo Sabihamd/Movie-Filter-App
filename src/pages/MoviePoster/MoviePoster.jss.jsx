@@ -11,11 +11,12 @@ const classes = createUseStyles({
     backgroundColor: "lightblue",
     display: "flex",
     flexDirection: "column",
-    width: "620px",
+    width: "600px",
+    height: "600px",
     margin: "auto",
-    marginTop: "30px",
+    marginTop: "5vh",
     gap: "15px",
-    padding: "20px",
+    padding: "10px",
   },
   title: {
     color: ({ theme }) => theme.color,
@@ -23,12 +24,12 @@ const classes = createUseStyles({
   },
   details: {
     fontWeight: "150",
-    fontSize: 'large',
+    fontSize: "large",
     color: ({ theme }) => theme.color,
-    '& span':{
-      fontSize: '18px',
-      fontStyle: 'italic'
-    }
+    "& span": {
+      fontSize: "18px",
+      fontStyle: "italic",
+    },
   },
 });
 

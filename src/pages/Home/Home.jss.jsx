@@ -20,7 +20,7 @@ const classes = createUseStyles({
     gap: "100px",
   },
   searchInput: {
-    width: "315px",
+    width: "350px",
     height: "50px",
     backgroundColor: "lightblue",
     color: ({ theme }) => theme.color,
