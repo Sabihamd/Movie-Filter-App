@@ -1,33 +1,48 @@
 import React, { useEffect, useState } from "react";
-import observable$ from "../../fetcher/movieList";
+import { from, filter } from "rxjs";
+import observable from "../../fetcher/movieList";
 import Card from "../../components/Card/Card";
 import useFilter from "../../hooks/useFilter";
 import { useTheme } from "react-jss";
 import classes from "./Home.jss";
-import axios from "axios";
 
 export default function HomeDummy() {
   const [collection, setCollection] = useState();
   const [filteredData, setFilteredData] = useState();
+  const [userInput, setUserInput] = useState();
   const theme = useTheme();
   const styles = classes({ theme });
 
-  let userInput = " ";
-
   useEffect(() => {
-    let subscription = observable$.subscribe({
-      next: (data) => {
-        setCollection(data.data);
-        setFilteredData(data.data);
+    const subscription = observable.subscribe({
+      next: (res) => {
+        setCollection(res.response);
+        setFilteredData(res.response);
       },
-      complete: (data) => {
+      complete: () => {
         subscription.unsubscribe();
       },
     });
+    return () => {
+      console.log("unmounted");
+    };
   }, []);
 
+  useEffect(() => {
+    if (collection !== undefined) {
+      const source = from(collection);
+      const observableWithPipe = source.pipe(
+        filter((movie) => Number(movie.Year) < 2010)
+      );
+      console.log("Movies released before 2010 are: ");
+      const subscribe = observableWithPipe.subscribe((movie) =>
+        console.log(movie.Title)
+      );
+    }
+  }, [collection]);
+
   const handleSearch = (e) => {
-    userInput = e.target.value;
+    setUserInput(e.target.value);
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const filterResults = useFilter(userInput, collection);
     setFilteredData(filterResults);

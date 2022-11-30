@@ -20,14 +20,14 @@ const Card = ({ data }) => {
 };
 
 Card.propTypes = {
-  data: {
+  data: PropTypes.shape({
     Title: PropTypes.string,
     Year: PropTypes.string,
     Runtime: PropTypes.string,
     Image: PropTypes.string,
     Poster: PropTypes.string,
     Plot: PropTypes.string,
-  },
+  }),
 };
 
 Card.defaultProps = {

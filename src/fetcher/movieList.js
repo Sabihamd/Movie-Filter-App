@@ -1,16 +1,9 @@
-import {Observable} from 'rxjs';
-import axios from "axios";
+import {ajax} from 'rxjs/ajax';
 
-let observable$ = new Observable((observer) => {
-  axios
-    .get("http://localhost:3001/movies")
-    .then((response) => {
-      observer.next(response);
-      observer.complete();
-    })
-    .catch((e) => {
-      observer.error(e);
-    });
+const moviesapi = 'http://localhost:3001/movies';
+const observable = ajax({
+  url: moviesapi,
+  method: 'GET'
 });
 
-export default observable$;
+export default observable;
