@@ -6,6 +6,7 @@ import {
   fromEvent,
   interval,
   of,
+  startWith,
   switchMap,
   take,
 } from "rxjs";
@@ -13,34 +14,33 @@ import {
 const Sample = () => {
   const initialState = { count: 0 };
   const renderCount = useRef(0);
-
   const reducer = (state, action) => {
+    const { count } = state;
     switch (action.type) {
       case "increment":
-        renderCount.current = renderCount.current + 1;
-        return { count: state.count + 1 };
+        return {
+          ...state,
+          count: count + 1,
+        };
       case "decrement":
-        renderCount.current = renderCount.current + 1;
-        return { count: state.count - 1 };
+        return {
+          ...state,
+          count: count - 1,
+        };
       default:
-        throw new Error();
+        return state;
     }
   };
 
   const [state, dispatch] = useReducer(reducer, initialState);
-
+  console.log(state);
   const complexResult = useMemo(() => {
     return complexOperation(state.count);
   }, [state.count]);
 
-  const complexOperation = (num) => {
-    console.log("Calculating..some complex operation");
-    for (let i = 1; i < 6; i++) num *= i;
-    return num;
-  };
-
   useEffect(() => {
-    renderCount.current = renderCount.current + 1;
+    renderCount.current += 1;
+    console.log(of(1, 2, 3));
     console.log("%cLogging the last emitted value", "color: blue");
     const forkjoin = forkJoin({
       sourceOne: of("first", "last").pipe(delay(1000)),
@@ -48,7 +48,12 @@ const Sample = () => {
     }).subscribe((val) => console.log(val));
 
     const fromevent = fromEvent(document, "click")
-      .pipe(switchMap(() => interval(1000)))
+      .pipe(
+        switchMap((event) => {
+          console.log(event);
+          return interval(1000).pipe(startWith(4));
+        })
+      )
       .subscribe(console.log);
 
     return () => {
@@ -56,6 +61,10 @@ const Sample = () => {
       fromevent.unsubscribe();
     };
   }, []);
+
+  useEffect(() => {
+    renderCount.current += 1;
+  }, [state.count]);
 
   return (
     <>
@@ -69,11 +78,17 @@ const Sample = () => {
         </button>
         <div>complex operation output is: {complexResult}</div>
         <div>
-          Number of times Sample component rendered: {renderCount.current}
+          Number of times Sample component rendered:{renderCount.current}
         </div>
       </div>
     </>
   );
+};
+
+const complexOperation = (num) => {
+  console.log("Calculating..some complex operation");
+  for (let i = 1; i < 6; i++) num *= i;
+  return num;
 };
 
 export default Sample;

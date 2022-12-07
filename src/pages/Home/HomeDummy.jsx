@@ -16,7 +16,6 @@ const HomeDummy = () => {
   const searchBar = useRef();
   const focusSearchBar = () => {
     searchBar.current.focus();
-    // console.log(searchBar);
   };
   useEffect(() => {
     const subscription = new Observable((observer) => {
@@ -55,17 +54,14 @@ const HomeDummy = () => {
       console.log("%cList of lead actors: (using map/tap)", "color: blue");
       const observableWithTap = source.pipe(
         map(({ Actors, Title }) => Title + "\n" + Actors),
-        tap(
-          () => {
-            console.log("%con next", "color: orange");
-          },
-          (error) => {
-            console.log("%con error", "color: red", error.message);
-          },
-          () => {
-            console.log("%con complete", "color: green");
-          }
-        )
+        tap(() => {
+          console.log("%con next", "color: orange");
+          return "hi"; //will be ignored
+        }),
+        map((res) => {
+          console.log(res);
+          return res;
+        })
       );
       const subscribeTap = observableWithTap.subscribe((details) =>
         console.log(details)
