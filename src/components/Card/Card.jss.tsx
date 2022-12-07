@@ -1,6 +1,6 @@
 import { createUseStyles } from "react-jss";
 
-const classes = createUseStyles({
+const styles = {
   title: {
     color: ({ theme }) => theme.color,
     fontSize: "18px",
@@ -34,6 +34,7 @@ const classes = createUseStyles({
     flexDirection: "column",
     gap: "20px",
   },
-});
+}
+const classes = createUseStyles(styles);
 
 export default classes;

@@ -31,6 +31,17 @@ const classes = createUseStyles({
       fontStyle: "italic",
     },
   },
+  backArrow: {
+    margin: "-10px 0 0 -10px",
+  },
+  button: {
+    textDecoration: "none",
+    fontWeight: "bold",
+    color: "black",
+    backgroundColor: "white",
+    padding: "2px 5px",
+    width: "fit-content",
+  },
 });
 
 export default classes;

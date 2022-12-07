@@ -1,11 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTheme } from "react-jss";
-import PropTypes from "prop-types";
-import classes from "./Card.jss";
+import classes from "./Card.jss.tsx";
 
-const Card = ({ data }) => {
-  const theme = useTheme();
+type Props = {
+  data: {
+    Actors: string,
+    Image: string,
+    Plot: string,
+    Poster: string,
+    Runtime: string,
+    Title: string,
+    Year: string,
+  },
+};
+
+type Theme ={
+  color: string,
+  backgroundColor: string
+}
+
+const Card = ({ data }: Props) => {
+  const theme = useTheme<Theme>();
   const styles = classes({ theme });
   return (
     <div className={styles.cardContainer}>
@@ -19,16 +35,17 @@ const Card = ({ data }) => {
   );
 };
 
-Card.propTypes = {
-  data: PropTypes.shape({
-    Title: PropTypes.string,
-    Year: PropTypes.string,
-    Runtime: PropTypes.string,
-    Image: PropTypes.string,
-    Poster: PropTypes.string,
-    Plot: PropTypes.string,
-  }),
-};
+// Card.propTypes = {
+//   data: PropTypes.shape({
+//     Title: PropTypes.string,
+//     Year: PropTypes.string,
+//     Runtime: PropTypes.string,
+//     Image: PropTypes.string,
+//     Poster: PropTypes.string,
+//     Plot: PropTypes.string,
+//     Actors: PropTypes.string,
+//   }),
+// };
 
 Card.defaultProps = {
   data: {
@@ -38,6 +55,7 @@ Card.defaultProps = {
     Image: "",
     Poster: "",
     Plot: "",
+    Actors: "",
   },
 };
 

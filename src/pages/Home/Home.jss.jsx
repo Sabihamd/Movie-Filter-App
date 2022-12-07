@@ -25,9 +25,17 @@ const classes = createUseStyles({
     backgroundColor: "lightblue",
     color: ({ theme }) => theme.color,
     display: "flex",
-    margin: "50px auto",
+    margin: "30px auto",
     textAlign: "center",
     fontSize: "medium",
+  },
+  flexItem: {
+    display: "flex",
+    "& button": {
+      height: "30px",
+      marginTop: "40px",
+      marginRight: "50px",
+    },
   },
 });
 
